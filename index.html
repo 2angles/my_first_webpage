@@ -1,43 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HTML Tutorial</title>
-  <link rel="stylesheet" href="style/styles.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 40%;
+        }
+
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+
+        .container {
+            padding: 2px 16px;
+        }
+    </style>
+
+    <title>HTML Tutorial</title>
+    <link rel="stylesheet" href="style/styles.css">
+
 </head>
 <body>
-<header id="header">
-    <div id="logo">
-        <img id="image " src="https://m.media-amazon.com/images/G/01/gno/images/general/backup-logo_blue_2x._CB481604563_.png">
-        
-    </div>
 
-    <div id="search">
-        <input type="text" placeholder="search" class="inputtext">
-       
-        <input type="submit" id="submit" >
-    </div>
+    <header id="header">
+        <div id="logo">
+            <img id="image " src="https://m.media-amazon.com/images/G/01/gno/images/general/backup-logo_blue_2x._CB481604563_.png">
 
-    <div id="login">
-        <div id="account"> 
-            your account
         </div>
 
-        <div id="help">
-            help
+        <div id="search">
+            <input type="text" placeholder="search" class="inputtext">
+
+            <input type="submit" id="submit">
         </div>
 
-        <div id="cart">
-            cart
+        <div id="login">
+
+            <div id="account">
+                my account
+            </div>
+
+            <div id="help">
+                help
+            </div>
+
+            <div id="cart">
+                cart
+            </div>
         </div>
-    </div>
-            
-  
-</header>
-<h1>my first webpage</h1>
-<p >welcome to my amazon webpage</p>
+    </header>
+    <h1>my first webpage</h1>
+    <p>welcome to my amazon webpage
     Building my first webpage has been an exciting, yet daunting experience.
-    I wanted to create something that was functional, visually appealing, and easy to navigate. 
+    I wanted to create something that was functional, visually appealing, and easy to navigate.
     After browsing through some of the world's best websites, I decided to take inspiration from the one that's always stood out to me. Amazon's homepage.
-    While I couldn't replicate all of it's features, I thought, why not take a shot at coding a page with a similar structure and design. 
+    While I couldn't replicate all of it's features, I thought, why not take a shot at coding a page with a similar structure and design. </p>
+    <div> 
+    </div>
+    <h2>Card</h2>
+
+    <div class="card">
+        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+        <div class="container">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+        </div>
+    </div>
 </body>
+
+
+
+
 </html>

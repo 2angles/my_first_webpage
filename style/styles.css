@@ -1,20 +1,34 @@
 body{
-    background-color: purple; 
- 
+    background-color: purple;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    background-color: blue;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
 }
 *{
     color:white;
-    
+
 }
 #header{
-    height :70px; 
-  
+    height :70px;
+
     background-color:#232F3E;
     display:flex;
 }
 #logo{
     width:220px;
-   
+
 }
 #login{
     display:flex;
@@ -24,7 +38,7 @@ body{
     width:600px;
 }
 .inputtext{
-    width: 500px; 
+    width: 500px;
     height: 50px;
     color:black;
     font-size: 32px;
@@ -33,4 +47,10 @@ body{
 #submit{
     width:35px;
     height:50px;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
 }
